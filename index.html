@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Domine:400,700&display=swap" rel="stylesheet">
+    <title>BROOM</title>
+    <style type="text/css">
+        @font-face{
+            font-family: 'coochie';
+            src:url('fonts/coochie/coochienando.eot'),
+                url('fonts/coochie/coochienando.svg'),
+                url('fonts/coochie/coochienando.ttf'),
+                url('fonts/coochie/coochienando.woff');
+        }
+        
+        *{
+            margin: 10px;
+            padding: 10px:
+        }
+        
+        body>p{
+            position: fixed;
+            font-family: 'coochie';
+            font-size: 30vw;
+            color: darkred;
+        }
+        p[title="b1"]{
+            top: 0;
+            left: 0;
+        }
+        p[title="b2"]{
+            top: -2%;
+            right: 0;
+            transform: rotate(180deg);
+        }
+        p[title="r1"]{
+            top: 25%;
+            left: 25%;
+            font-size: 18vw;
+        }
+        p[title="r2"]{
+            top: 24%;
+            right: 25%;
+            transform: rotate(180deg);
+            font-size: 18vw;
+        }
+        p[title="o1"]{
+            top: 35%;
+            right: 34%;
+        }
+        p[title="o2"]{
+            bottom: 25%;
+            left: 25%;
+            transform: rotate(180deg);
+            font-size: 18vw;
+        }
+        p[title="o3"]{
+            bottom: 24%;
+            right: 25%;
+            font-size: 18vw;
+        }
+        p[title="m1"]{
+            bottom: 0;
+            left: 0;
+            transform: rotate(180deg);
+        }
+        p[title="m2"]{
+            bottom: -12px;
+            right: 0;
+        }
+        div>p{
+             font-family: 'Domine', serif;
+             position: absolute;
+             color: darkred;
+        }
+        div p:first-child{
+            font-size: 25px;
+            left: -50px;
+            top: 5px;
+        }
+        div p:last-child{
+            right: 0;
+            top: -10px;
+            font-size: 110px;
+        }
+        div[title="c1"]{
+            position: fixed;
+            width: 100px;
+            height: 100px;
+            top: 0;
+            left: 45%;
+        }
+        div[title="c2"]{
+            position: fixed;
+            width: 100px;
+            height: 100px;
+            top: 40%;
+            right: 0;
+            transform: rotate(180deg);
+            transform: scale(1,-1);
+        }
+        div[title="c3"]{
+            position: fixed;
+            width: 100px;
+            height: 100px;
+            bottom: 12%;
+            left: 45%;
+        }
+        div[title="c3"] p:first-child,div[title="c4"] p:first-child{
+            left: -15px;
+        }
+        div[title="c4"]{
+            position: fixed;
+            width: 100px;
+            height: 100px;
+            bottom: 42%;
+            left: 0;
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body style="background-color: tan">
+    <p title="b1">B</p>
+    <p title="b2">B</p>
+    <p title="r1">R</p>
+    <p title="r2">R</p>
+    <p title="o1">O</p>
+    <p title="o2">O</p>
+    <p title="o3">O</p>
+    <p title="m1">M</p>
+    <p title="m2">M</p>
+    <div title="c1">
+        <p>VOL.</p>
+        <p>6</p>
+    </div>
+    <div title="c2">
+        <p>VOL.</p>
+        <p>6</p>
+    </div>
+    <div title="c3">
+        <p>NO.</p>
+        <p>1</p>
+    </div>
+    <div title="c4">
+        <p>NO.</p>
+        <p>1</p>
+    </div>
+</body>
+</html>
